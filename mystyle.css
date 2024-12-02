@@ -61,39 +61,47 @@ body {
   line-height: 1.6;
 }
 
-.find-pet h2 {
-  text-transform: capitalize;
-  font-family: fantasy;
-  text-shadow: 3px 3px 3px #ffffff;
-  margin-bottom: 15px;
+.find-pet {
+  background-color: rgba(67, 39, 99, 0.5);
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 10px #000000;
+  text-align: center;
 }
 
-.find-pet p {
-  font-size: 1.2em;
-  line-height: 1.6;
-}
-.shop h3 {
-  text-transform: capitalize;
-  font-family: fantasy;
-  text-shadow: 3px 3px 3px #ffffff;
-  margin-bottom: 15px;
-}
-
-.shop p {
-  font-size: 1.2em;
-  line-height: 1.6;
-}
-.contact h4 {
-  text-transform: capitalize;
-  font-family: fantasy;
-  text-shadow: 3px 3px 3px #ffffff;
-  margin-bottom: 15px;
+.shop  {
+  background-color: rgba(67, 39, 99, 0.5);
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 10px #000000;
+  text-align: center;
 }
 
-.contact p {
-  font-size: 1.2em;
-  line-height: 1.6;
+
 }
+.contact {
+  background-color: rgba(67, 39, 99, 0.5);
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 10px #000000;
+  text-align: center;
+}
+
 /* Content Sections */
 .content-section {
   background-color: rgba(255, 0, 0, 0.5);
