@@ -73,7 +73,17 @@ body {
   box-shadow: 1px 10px 10px #000000;
   text-align: center;
 }
+.content-section h1 {
+  text-transform: capitalize;
+  font-family: fantasy;
+  text-shadow: 3px 3px 3px #ffffff;
+  margin-bottom: 15px;
+}
 
+.content-section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
 
 
 /* Footer */
