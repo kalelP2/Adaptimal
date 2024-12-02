@@ -61,6 +61,39 @@ body {
   line-height: 1.6;
 }
 
+.find-pet h2 {
+  text-transform: capitalize;
+  font-family: fantasy;
+  text-shadow: 3px 3px 3px #ffffff;
+  margin-bottom: 15px;
+}
+
+.find-pet p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.shop h3 {
+  text-transform: capitalize;
+  font-family: fantasy;
+  text-shadow: 3px 3px 3px #ffffff;
+  margin-bottom: 15px;
+}
+
+.shop p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.contact h4 {
+  text-transform: capitalize;
+  font-family: fantasy;
+  text-shadow: 3px 3px 3px #ffffff;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
 /* Content Sections */
 .content-section {
   background-color: rgba(255, 0, 0, 0.5);
