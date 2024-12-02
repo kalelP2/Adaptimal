@@ -61,7 +61,7 @@ body {
   line-height: 1.6;
 }
 
-..content-section {
+.content-section {
   background-color: rgba(67, 39, 99, 0.5);
   color: #ffffff;
   border: 5px solid #ffffff;
