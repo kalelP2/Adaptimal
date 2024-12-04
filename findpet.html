@@ -31,17 +31,39 @@
 
   <section class="location-search">
     <h2>Find a Location in New York</h2>
-    <form action="location-results.html" method="get" class="search-form">
+    <div class="search-form">
         <input 
             type="text" 
-            name="location" 
+            id="location-input" 
             placeholder="Type a location in New York" 
             required 
             class="location-input"
         >
-        <button type="submit" class="search-btn">Search</button>
-    </form>
+        <button type="button" class="search-btn" onclick="searchLocation()">Search</button>
+    </div>
 </section>
+
+<script>
+    function searchLocation() {
+        // Get the value from the input field
+        const location = document.getElementById('location-input').value.trim().toLowerCase();
+
+        // Check the input and redirect accordingly
+        if (location === "brooklyn") {
+            window.location.href = "brooklyn.html";
+        } else if (location === "manhattan") {
+            window.location.href = "manhattan.html";
+        } else if (location === "queens") {
+            window.location.href = "queens.html";
+        } else if (location === "bronx") {
+            window.location.href = "bronx.html";
+        } else if (location === "staten island") {
+            window.location.href = "staten-island.html";
+        } else {
+            alert("Sorry, we couldn't find results for that location. Please try another.");
+        }
+    }
+</script>
 
     <footer class="footer">
         <p>&copy; 2024 Adoptimal All rights reserved.</p>
