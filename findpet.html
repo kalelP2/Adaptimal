@@ -21,10 +21,29 @@
 </nav>
 
     </header>
+<section class="location-search">
+    <h2>Find a Location in New York</h2>
+    <form action="location-results.html" method="get" class="search-form">
+        <input 
+            type="text" 
+            name="location" 
+            placeholder="Type a location in New York" 
+            required 
+            class="location-input"
+        >
+        <select name="location-select" class="location-dropdown">
+            <option value="">-- Or Select a Location --</option>
+            <option value="manhattan">Manhattan</option>
+            <option value="brooklyn">Brooklyn</option>
+            <option value="queens">Queens</option>
+            <option value="bronx">Bronx</option>
+            <option value="staten-island">Staten Island</option>
+        </select>
+        <button type="submit" class="search-btn">Search</button>
+    </form>
+</section>
 
     <main>
-       
-
         <section id="find-pet" class="content-section">
             <h2>Finding a Pet</h2>
             <p>Discover your new best friend. Browse through our list of pets available for adoption.</p>
