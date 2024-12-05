@@ -192,3 +192,74 @@ a:hover {
         padding: 10px;
     }
 }
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for all the images and text */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Box around each image and description */
+.image-box {
+    width: 280px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Styling for images */
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling for the text below the image */
+.image-box p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Bold text for section headers */
+.image-box p b {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Adding hover effect for each image box */
+.image-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-box {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+}
