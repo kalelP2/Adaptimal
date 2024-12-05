@@ -177,6 +177,58 @@ a:hover {
     transition: background-color 0.3s;
 }
 
+
+.contact-info h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 900px;
+  max-width: 600px;
+  border: 2px solid #8000ff;
+  border-radius: 8px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 1px 10px 10px #000000;
+}
+
+/* Style for email-info container */
+.email-info {
+  margin-top: 20px;
+}
+
+/* Each email section styled separately */
+.email-section {
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style for email titles and icons */
+.email-section h3 {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.email-icon {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.email-section p {
+  margin: 0;
+  font-size: 1em;
+  color: #ffffff;
+  display: inline;
+}
 .search-btn:hover {
     background-color: #8000ff;
 }
