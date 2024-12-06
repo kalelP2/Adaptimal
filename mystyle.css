@@ -179,56 +179,58 @@ a:hover {
 
 
 .contact-info h2 {
-  font-size: 2em;
-  margin-bottom: 15px;
+  font-size: 1.5em; /* Reduced size */
+  margin-bottom: 10px; /* Smaller margin */
   color: #ffffff;
 }
+
 .contact-info {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 30px;
-  margin: 30px auto;
-  width: 80%;
-  min-height: 900px;
-  max-width: 600px;
-  border: 2px solid #8000ff;
-  border-radius: 8px;
+  padding: 20px; /* Reduced padding */
+  margin: 20px auto; /* Reduced margin */
+  width: 90%; /* Adjusted width for responsiveness */
+  min-height: 700px; /* Reduced height */
+  max-width: 500px; /* Reduced max width */
+  border: 1px solid #8000ff; /* Thinner border */
+  border-radius: 5px; /* Smaller radius */
   color: #ffffff;
   text-align: center;
-  box-shadow: 1px 10px 10px #000000;
+  box-shadow: 0 5px 8px #000000; /* Subtle shadow */
 }
 
 /* Style for email-info container */
 .email-info {
-  margin-top: 20px;
+  margin-top: 15px; /* Reduced margin */
 }
 
 /* Each email section styled separately */
 .email-section {
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Reduced bottom margin */
   text-align: left;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 8px; /* Smaller padding */
+  border-radius: 4px; /* Slightly smaller radius */
 }
 
 /* Style for email titles and icons */
 .email-section h3 {
-  font-size: 1.2em;
+  font-size: 1em; /* Smaller font */
   color: #ffffff;
   margin-bottom: 5px;
 }
 
 .email-icon {
-  font-size: 1.2em;
+  font-size: 1em; /* Adjusted size */
   color: #ffffff;
-  margin-right: 8px;
+  margin-right: 5px; /* Narrower gap */
 }
 
 .email-section p {
   margin: 0;
-  font-size: 1em;
+  font-size: 0.9em; /* Reduced text size */
   color: #ffffff;
   display: inline;
 }
+
 .search-btn:hover {
     background-color: #8000ff;
 }
