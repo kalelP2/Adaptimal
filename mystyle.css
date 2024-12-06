@@ -189,7 +189,7 @@ a:hover {
   padding: 20px; /* Reduced padding */
   margin: 20px auto; /* Reduced margin */
   width: 90%; /* Adjusted width for responsiveness */
-  min-height: 700px; /* Reduced height */
+  min-height: 300px; /* Reduced height */
   max-width: 500px; /* Reduced max width */
   border: 1px solid #8000ff; /* Thinner border */
   border-radius: 5px; /* Smaller radius */
