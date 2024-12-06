@@ -317,3 +317,14 @@ a:hover {
         margin-bottom: 20px;
     }
 }
+
+.wave {
+  background-color: rgba(67, 39, 99, 0.5);
+  color: #ffffff;
+  height: 75px;
+  overflow: hidden;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  transition: height 10s;
+}
